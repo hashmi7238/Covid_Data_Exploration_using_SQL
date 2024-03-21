@@ -1,6 +1,8 @@
 # Covid_Data_Exploration_using_SQL
 Tools Used : SQL Server
-
+OBJECTIVE:
+----------
+To explore the covid-19 data of world wide using SQL queries.
 
 Load all columns of CovidDeath table (continent = Not Null)
 ------------------------------------------------------------
@@ -158,6 +160,7 @@ Join CovidData..Covidvaccinations vac
 	and dea.date = vac.date
 where dea.continent is not null 
 
-
+-----------------------------------------
 #WAIT FOR MORE....(work in progress)
+-----------------------------------------
 
